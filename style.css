@@ -19,6 +19,19 @@
     text-decoration: none;
 }
 
+
+/* Fix this! */
+/* #cart-count {
+    position: relative;
+        top: -7px;
+        right: 10px;
+        background: red;
+        color: white;
+        font-size: 5px;
+        padding: 2px 6px;
+        border-radius: 50%;
+} */
+
 /* Media queries for responsive adjustments */
 @media (max-width: 768px) {
     .banner-image {
