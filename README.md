@@ -3,9 +3,9 @@
 ## Built mainly with HTML CSS Bootstrap
 
 TODO:
--[ ] Change colors
--[ ] Add JS functionality 
+-[X] Change colors
+-[X] Add JS functionality 
 -[ ] Add more products
--[ ] Fix logo
+-[X] Fix logo
 -[ ] Get contact form link working in product and cart pages
--[ ] Make a landing page for all links that don't actually go anywhere
+-[X] Make a landing page for all links that don't actually go anywhere
