@@ -19,6 +19,21 @@
     text-decoration: none;
 }
 
+#cart-toast{
+     position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #28a745;
+        color: white;
+        padding: 12px 18px;
+        border-radius: 6px;
+        font-weight: bold;
+        display: none;
+        z-index: 9999;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        
+}
+
 #cart-count {
     color: #ff523b;
 }
