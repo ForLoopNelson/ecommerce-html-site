@@ -19,6 +19,18 @@
     text-decoration: none;
 }
 
+#cart-count {
+    color: #ff523b;
+}
+
+#cart-items {
+    font-size: 25px;
+}
+
+#empty-cart {
+    font-size: 35px;
+}
+
 
 /* Fix this! */
 /* #cart-count {
