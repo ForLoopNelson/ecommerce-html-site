@@ -9,7 +9,7 @@ addToCartButtons.forEach(button => {
         const productId = button.dataset.productId;
         const productName = button.dataset.productName;
         const productPrice = parseFloat(button.dataset.productPrice); // Convert to number
-        const quantityInput = document.getElementById(`quantity-${productId}`); // Optional: if you have a quantity input
+        const quantityInput = document.getElementById(`quantity-${productId}`); // Optional 
         const selectedQuantity = quantityInput ? parseInt(quantityInput.value) : 1;
         const img = button.dataset.productImg;
 
@@ -72,6 +72,15 @@ function updateCartIcon() {
 function updateCartUI() {
     const cartItemsContainer = document.getElementById('cart-items');
     if (!cartItemsContainer) return; // so products page doesn't break
+
+     // If cart is empty
+    if (cart.length === 0) {
+        cartItemsContainer.innerHTML = '<p id="empty-cart">Your Cart is Empty</p>';
+        document.getElementById("cart-subtotal").textContent = "$0.00";
+        document.getElementById("cart-tax").textContent = "$0.00";
+        document.getElementById("cart-total").textContent = "$0.00";
+        return;
+    }
 
     cartItemsContainer.innerHTML = '';
 
